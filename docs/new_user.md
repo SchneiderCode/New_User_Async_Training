@@ -57,7 +57,7 @@ Welcome to the Research Computing New User Training! This course covers the ins 
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A student is taking an online quiz to test their knowledge of HPC systems. There is a banner across the top stating 'CU Research Computing: Verify your skills'](New_User_Async_Training/img/RC_Quiz.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A student is taking an online quiz to test their knowledge of HPC systems. There is a banner across the top stating 'CU Research Computing: Verify your skills'](img/RC_Quiz.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
