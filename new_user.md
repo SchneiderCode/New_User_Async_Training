@@ -57,7 +57,7 @@ Welcome to the Research Computing New User Training! This course covers the ins 
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A student is taking an online quiz to test their knowledge of HPC systems](New_User_Async_Training/img/RC_Quiz.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A student is taking an online quiz to test their knowledge of HPC systems. There is a banner across the top stating 'CU Research Computing: Verify your skills'](New_User_Async_Training/img/RC_Quiz.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -144,8 +144,9 @@ Institutional email address:
 
 <div style="clear:both"></div>
 
-> **Note:** Multiple questions are embedded in this training. It is ok if you don't know the answer to every question! Many of the questions are designed to test for common misconceptions and help you avoid common pitfalls for new users. 
-
+> [!IMPORTANT] 
+> * Multiple questions are embedded in this training. It is ok if you don't know the answer to every question! Many of the questions are designed to test for common misconceptions and help you avoid common pitfalls for new users. 
+> * We aim to make our online resources accessible to everyone. If you encounter any barriers in the materials contained in this tutorial, please report them through our [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form).
 
 ---
 
@@ -164,7 +165,7 @@ An HPC cluster connects individual computers (called "nodes") via a high-speed n
 * **Working at Scale:** Also known as "High-Throughput Computing," this approach assigns each node a separate, smaller puzzle to solve independently. While the speed of a single task remains the same, the cluster processes a massive volume of distinct jobs at once.
 
 
-![A cartoon graphic of an HPC Cluster's hardware](New_User_Async_Training/img/HPC_Workflows.png)<!-- style="border:solid black 1px; border-radius: 15px; display:block; margin:15px auto; width:75%" -->
+![A cartoon graphic representing HPC workflows, which include both parallel processing and high-throughput computation.](New_User_Async_Training/img/HPC_Workflows.png)<!-- style="border:solid black 1px; border-radius: 15px; display:block; margin:15px auto; width:75%" -->
 
 
 
@@ -196,7 +197,7 @@ CURC currently supports two clusters -- Alpine and Blanca.
 
 <div style="width:45%; margin: 15px 2.5%; float:left; ">
 
-![A cartoon graphic of an HPC Cluster's hardware](New_User_Async_Training/img/HPC_Clusters.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic representing an HPC Cluster's hardware](New_User_Async_Training/img/HPC_Clusters.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -285,7 +286,7 @@ CURC supports three types of nodes in its clusters: Login, Compute, and Data-Tra
   "LIA: wait"
 </script>
 
-This is your entry point to the system. When you `ssh` onto login.rc.colorado.edu, you are on a login node.
+This is your entry point to the system. When you `ssh` onto login.rc.colorado.edu or use Open OnDemand's Alpine Shell, you are accessing the system through a login node.
 
 * **Use it for:** Lightweight tasks like editing files, writing job scripts, managing directories, and submitting jobs to the scheduler.
 
@@ -316,7 +317,7 @@ These are the powerful computers where your actual research and calculations tak
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic of an HPC Cluster's hardware](New_User_Async_Training/img/Alpine.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic representing CURC's Alpine cluster.](New_User_Async_Training/img/Alpine.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -417,7 +418,7 @@ To access CURC's HPC resources, like Alpine and Blanca, you will need to follow 
 
 <br>
 
-![A cartoon graphic showing how to access CURC systems](New_User_Async_Training/img/System_Access.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
+![A cartoon graphic providing an overview of the steps to access CURC systems. Further details are provided under the header "Accessing the Cluster".](New_User_Async_Training/img/System_Access.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
 
 ### Requesting an RC Account 
 
@@ -490,7 +491,7 @@ Open OnDemand is a browser-based web portal that serves as a single access point
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic of a user interacting with the Open OnDemand web portal](New_User_Async_Training/img/Open_OnDemand.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic showing a user interacting with the Open OnDemand web portal](New_User_Async_Training/img/Open_OnDemand.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -561,7 +562,7 @@ If you are new to CURC's systems we encourage you to start with an interactive j
 
 > **Note:** Whether you run a batch job or an interactive job, it will be placed in a queue until resources are available. As a good rule of thumb, the more resources and job time you request the longer your job will wait in the queue. So, make sure your jobs only request what they need.
 
-![A cartoon graphic showing the types of interactive and batch jobs supported on the cluster](New_User_Async_Training/img/Interactive_VS_Batch_Jobs.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
+![A cartoon graphic showing the types of interactive and batch jobs supported on the cluster, which includes the logos for Jupyter Notebooks, MatLab, VS Code, R Studio, Bash, and Linux. ](New_User_Async_Training/img/Interactive_VS_Batch_Jobs.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
 
 ### Interactive Jobs
 
@@ -719,7 +720,7 @@ echo "== End of Job =="
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic showing a technican loading blocks labeled with different software modules onto a stack labeled LMOD](New_User_Async_Training/img/SLURM.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic showing a robot labeled 'Slurm' scheduling jobs on the Alpine and Blanca clusters](New_User_Async_Training/img/SLURM.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -778,7 +779,7 @@ In order for your computational workflows to actually "compute", you will need t
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic showing a technican loading blocks labeled with different software modules onto a stack labeled LMOD](New_User_Async_Training/img/Software_Stack.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic showing a technican stacking blocks labeled with different software modules onto a platform labeled LMOD](New_User_Async_Training/img/Software_Stack.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -851,7 +852,7 @@ if(check == 1){
 
 CURC provides two options for storing your data on the system - Core Storage and PetaLibrary.
 
-![A cartoon graphic showing how to access CURC systems](New_User_Async_Training/img/Data_Storage.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
+![A cartoon graphic representing CURC's data storage as a chest filled with hard drives and tape storage media.](New_User_Async_Training/img/Data_Storage.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
 
 ### Core Storage
 
@@ -945,7 +946,7 @@ Data transfers using SSH protocols can be done through the CURC data transfer no
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic representing the core storage](New_User_Async_Training/img/Core_Storage.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic representing the core storage as a bookshelf with labeled shelves for the home, projects, and scratch directories.](New_User_Async_Training/img/Core_Storage.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -1038,7 +1039,7 @@ To maintain a healthy system, you must adhere to the following policies:
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic representing the User Policies](New_User_Async_Training/img/User_Policies.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic representing the User Policies that lists example policies of 'Fair Share', 'Data Security', 'No Crypto Mining', and 'Respect Quotas'](New_User_Async_Training/img/User_Policies.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
