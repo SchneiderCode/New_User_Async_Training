@@ -48,7 +48,7 @@ window.user_email=window.user_name + "email.edu"
 
 persistent: true
 
-icon: New_User_Async_Training/rc_logo.png
+icon: rc_logo.png
 -->
 
 # Research Computing New User Training
@@ -144,10 +144,6 @@ Institutional email address:
 
 <div style="clear:both"></div>
 
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
-
-
 > [!IMPORTANT] 
 > * Multiple questions are embedded in this training. It is ok if you don't know the answer to every question! Many of the questions are designed to test for common misconceptions and help you avoid common pitfalls for new users. 
 > * We aim to make our online resources accessible to everyone. If you encounter any barriers in the materials contained in this tutorial, please report them through our [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form).
@@ -169,7 +165,7 @@ An HPC cluster connects individual computers (called "nodes") via a high-speed n
 * **Working at Scale:** Also known as "High-Throughput Computing," this approach assigns each node a separate, smaller puzzle to solve independently. While the speed of a single task remains the same, the cluster processes a massive volume of distinct jobs at once.
 
 
-![A cartoon graphic representing HPC workflows, which include both parallel processing and high-throughput computation.](New_User_Async_Training/img/HPC_Workflows.png)<!-- style="border:solid black 1px; border-radius: 15px; display:block; margin:15px auto; width:75%" -->
+![A cartoon graphic representing HPC workflows, which include both parallel processing and high-throughput computation.](img/HPC_Workflows.png)<!-- style="border:solid black 1px; border-radius: 15px; display:block; margin:15px auto; width:75%" -->
 
 
 
@@ -191,7 +187,7 @@ CURC currently supports two clusters -- Alpine and Blanca.
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
 
-<img alt="Read the Docs Logo" src="New_User_Async_Training/img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
+<img alt="Read the Docs Logo" src="img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
 
 <p style="margin-bottom:0;" >Learn more about [Alpine](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html) and [Blanca](https://www.colorado.edu/rc/resources/blanca) in our online documentation. </p>
 
@@ -201,7 +197,7 @@ CURC currently supports two clusters -- Alpine and Blanca.
 
 <div style="width:45%; margin: 15px 2.5%; float:left; ">
 
-![A cartoon graphic representing an HPC Cluster's hardware](New_User_Async_Training/img/HPC_Clusters.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic representing an HPC Cluster's hardware](img/HPC_Clusters.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -321,7 +317,7 @@ These are the powerful computers where your actual research and calculations tak
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic representing CURC's Alpine cluster.](New_User_Async_Training/img/Alpine.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic representing CURC's Alpine cluster.](img/Alpine.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -422,7 +418,7 @@ To access CURC's HPC resources, like Alpine and Blanca, you will need to follow 
 
 <br>
 
-![A cartoon graphic providing an overview of the steps to access CURC systems. Further details are provided under the header "Accessing the Cluster".](New_User_Async_Training/img/System_Access.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
+![A cartoon graphic providing an overview of the steps to access CURC systems. Further details are provided under the header "Accessing the Cluster".](img/System_Access.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
 
 ### Requesting an RC Account 
 
@@ -438,7 +434,7 @@ In order to access CURC's High Performance Computing (HPC) systems (Alpine, Blan
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
 
-<img alt="Read the Docs Logo" src="New_User_Async_Training/img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
+<img alt="Read the Docs Logo" src="img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
 
 <p style="margin-bottom:0;" >Learn more about [requesting an RC account](https://curc.readthedocs.io/en/latest/getting_started/logging-in.html#getting-a-curc-account) in our online documentation. </p>
 
@@ -460,7 +456,7 @@ Similar to obtaining an account, the process of logging in to CURC resources can
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
 
-<img alt="Read the Docs Logo" src="New_User_Async_Training/img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
+<img alt="Read the Docs Logo" src="img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
 
 <p style="margin-bottom:0;" >Learn more about [logging in](https://curc.readthedocs.io/en/latest/getting_started/logging-in.html#getting-access-to-curc-resources) in our online documentation. </p>
 
@@ -485,7 +481,7 @@ Open OnDemand is a browser-based web portal that serves as a single access point
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
 
-<img alt="Read the Docs Logo" src="New_User_Async_Training/img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
+<img alt="Read the Docs Logo" src="img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
 
 <p style="margin-bottom:0;" >Learn more about [Open OnDemand](https://curc.readthedocs.io/en/latest/open_ondemand/index.html) in our online documentation. </p>
 
@@ -495,7 +491,7 @@ Open OnDemand is a browser-based web portal that serves as a single access point
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic showing a user interacting with the Open OnDemand web portal](New_User_Async_Training/img/Open_OnDemand.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic showing a user interacting with the Open OnDemand web portal](img/Open_OnDemand.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -566,7 +562,7 @@ If you are new to CURC's systems we encourage you to start with an interactive j
 
 > **Note:** Whether you run a batch job or an interactive job, it will be placed in a queue until resources are available. As a good rule of thumb, the more resources and job time you request the longer your job will wait in the queue. So, make sure your jobs only request what they need.
 
-![A cartoon graphic showing the types of interactive and batch jobs supported on the cluster, which includes the logos for Jupyter Notebooks, MatLab, VS Code, R Studio, Bash, and Linux. ](New_User_Async_Training/img/Interactive_VS_Batch_Jobs.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
+![A cartoon graphic showing the types of interactive and batch jobs supported on the cluster, which includes the logos for Jupyter Notebooks, MatLab, VS Code, R Studio, Bash, and Linux. ](img/Interactive_VS_Batch_Jobs.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
 
 ### Interactive Jobs
 
@@ -600,7 +596,7 @@ You can also request an interactive job through Open Ondemand, which supports a 
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
 
-<img alt="Read the Docs Logo" src="New_User_Async_Training/img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
+<img alt="Read the Docs Logo" src="img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
 
 <p style="margin-bottom:0;" >Learn more about [interactive jobs](https://curc.readthedocs.io/en/latest/running-jobs/interactive-jobs.html) and [Open OnDemand's interactive applications](https://curc.readthedocs.io/en/latest/open_ondemand/index.html) in our online documentation. </p>
 
@@ -651,7 +647,7 @@ sinteractive --partition=atesting_a100 --gres=gpu:1 --ntasks=10 --nodes=1 --qos=
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
 
-<img alt="Read the Docs Logo" src="New_User_Async_Training/img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
+<img alt="Read the Docs Logo" src="img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
 
 <p style="margin-bottom:0;" >Learn more about [Alpine's partitions](https://curc.readthedocs.io/en/latest/clusters/alpine/alpine-hardware.html#partitions) and check examples for requesting [Blanca resources](https://curc.readthedocs.io/en/latest/clusters/blanca/blanca.html#examples) in our online documentation. </p>
 
@@ -677,7 +673,7 @@ Once created, you can run your job script by passing it to the Slurm queue with 
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
 
-<img alt="Read the Docs Logo" src="New_User_Async_Training/img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
+<img alt="Read the Docs Logo" src="img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
 
 <p style="margin-bottom:0;" >Learn more about [batch jobs](https://curc.readthedocs.io/en/latest/running-jobs/batch-jobs.html#batch-jobs-and-job-scripting) in our online documentation. </p>
 
@@ -724,7 +720,7 @@ echo "== End of Job =="
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic showing a robot labeled 'Slurm' scheduling jobs on the Alpine and Blanca clusters](New_User_Async_Training/img/SLURM.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic showing a robot labeled 'Slurm' scheduling jobs on the Alpine and Blanca clusters](img/SLURM.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -783,7 +779,7 @@ In order for your computational workflows to actually "compute", you will need t
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic showing a technican stacking blocks labeled with different software modules onto a platform labeled LMOD](New_User_Async_Training/img/Software_Stack.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic showing a technican stacking blocks labeled with different software modules onto a platform labeled LMOD](img/Software_Stack.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -856,7 +852,7 @@ if(check == 1){
 
 CURC provides two options for storing your data on the system - Core Storage and PetaLibrary.
 
-![A cartoon graphic representing CURC's data storage as a chest filled with hard drives and tape storage media.](New_User_Async_Training/img/Data_Storage.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
+![A cartoon graphic representing CURC's data storage as a chest filled with hard drives and tape storage media.](img/Data_Storage.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
 
 ### Core Storage
 
@@ -890,7 +886,7 @@ All users are provisioned space in three personal directories (that are accessib
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
 
-<img alt="Read the Docs Logo" src="New_User_Async_Training/img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
+<img alt="Read the Docs Logo" src="img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
 
 <p style="margin-bottom:0;" >Learn more about [Core Storage](https://curc.readthedocs.io/en/latest/compute/filesystems.html) (including how to manage file permissions and sharing data) in our online documentation. </p>
 
@@ -917,7 +913,7 @@ The PetaLibrary is a University of Colorado Boulder Research Computing service t
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
 
-<img alt="Read the Docs Logo" src="New_User_Async_Training/img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
+<img alt="Read the Docs Logo" src="img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
 
 <p style="margin-bottom:0;" >You can learn more about Petalibrary's [different tiers and options](https://curc.readthedocs.io/en/latest/petalibrary/allocation_types.html) in our online documentation. You can find the [current rates](https://www.colorado.edu/rc/resources/petalibrary/storageandrates) for Petalibrary allocations on our main website.</p>
 
@@ -940,7 +936,7 @@ Data transfers using SSH protocols can be done through the CURC data transfer no
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
 
-<img alt="Read the Docs Logo" src="New_User_Async_Training/img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
+<img alt="Read the Docs Logo" src="img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
 
 <p style="margin-bottom:0;" >You can learn more about [data transfers](https://curc.readthedocs.io/en/latest/compute/data-transfer.html) and the various protocols we support in our online documentation. </p>
 
@@ -950,7 +946,7 @@ Data transfers using SSH protocols can be done through the CURC data transfer no
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic representing the core storage as a bookshelf with labeled shelves for the home, projects, and scratch directories.](New_User_Async_Training/img/Core_Storage.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic representing the core storage as a bookshelf with labeled shelves for the home, projects, and scratch directories.](img/Core_Storage.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
@@ -1032,7 +1028,7 @@ To maintain a healthy system, you must adhere to the following policies:
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
 
-<img alt="Read the Docs Logo" src="New_User_Async_Training/img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
+<img alt="Read the Docs Logo" src="img/RTD_Logo_Dark.svg" style="width:150px; margin-right:15px; background-color:white; border-radius:5px; padding:5px;"> 
 
 <p style="margin-bottom:0;" >Please note, we have only provided an abridged version of the CURC user policies in this training. Please make sure to review the complete and official [CURC User Policies](https://curc.readthedocs.io/en/latest/additional-resources/policies.html) in our online documentation. </p>
 
@@ -1043,7 +1039,7 @@ To maintain a healthy system, you must adhere to the following policies:
 
 <div style="width:45%; margin: 15px 2.5%; float:left;">
 
-![A cartoon graphic representing the User Policies that lists example policies of 'Fair Share', 'Data Security', 'No Crypto Mining', and 'Respect Quotas'](New_User_Async_Training/img/User_Policies.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
+![A cartoon graphic representing the User Policies that lists example policies of 'Fair Share', 'Data Security', 'No Crypto Mining', and 'Respect Quotas'](img/User_Policies.png)<!-- style="border:solid black 1px; border-radius: 15px;" -->
 
 </div>
 
