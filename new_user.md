@@ -145,8 +145,8 @@ Institutional email address:
 <div style="clear:both"></div>
 
 > [!IMPORTANT] 
-> * Multiple questions are embedded in this training. It is ok if you don't know the answer to every question! Many of the questions are designed to test for common misconceptions and help you avoid common pitfalls for new users. 
-> * We aim to make our online resources accessible to everyone. If you encounter any barriers in the materials contained in this tutorial, please report them through our [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form).
+> Multiple questions are embedded in this training. It is ok if you don't know the answer to every question! Many of the questions are designed to test for common misconceptions and help you avoid common pitfalls for new users. 
+> We aim to make our online resources accessible to everyone. If you encounter any barriers in the materials contained in this tutorial, please report them through our [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form).
 
 ---
 
@@ -166,7 +166,6 @@ An HPC cluster connects individual computers (called "nodes") via a high-speed n
 
 
 ![A cartoon graphic representing HPC workflows, which include both parallel processing and high-throughput computation.](img/HPC_Workflows.png)<!-- style="border:solid black 1px; border-radius: 15px; display:block; margin:15px auto; width:75%" -->
-
 
 
 ---
@@ -560,9 +559,10 @@ In order to run a program on a cluster, you must request resources from Slurm to
 
 If you are new to CURC's systems we encourage you to start with an interactive job, where you can develop and test your computational workflow. Once you are ready to scale-up your workflow, you can convert your workflow into a batch job that is managed by SLURM. More details on interactive and batch jobs follow in the next sections. 
 
-> **Note:** Whether you run a batch job or an interactive job, it will be placed in a queue until resources are available. As a good rule of thumb, the more resources and job time you request the longer your job will wait in the queue. So, make sure your jobs only request what they need.
-
 ![A cartoon graphic showing the types of interactive and batch jobs supported on the cluster, which includes the logos for Jupyter Notebooks, MatLab, VS Code, R Studio, Bash, and Linux. ](img/Interactive_VS_Batch_Jobs.png)<!-- style="border:solid black 1px; border-radius: 15px; width:75%; margin: 0 auto; display:block;" -->
+
+> [!Note]
+> Whether you run a batch job or an interactive job, it will be placed in a queue until resources are available. As a good rule of thumb, the more resources and job time you request the longer your job will wait in the queue. So, make sure your jobs only request what they need.
 
 ### Interactive Jobs
 
@@ -638,10 +638,10 @@ sinteractive --partition=atesting --ntasks=2 --ntasks-per-node=1 --nodes=2 --qos
 
 ---
 
-Request 1 A100 GPU (MIG Slice) with 10 CPU cores for 30 minutes on the atesting_a100 partition. atesting_a100 is one of the GPU testing partitions which provide access to limited GPU resources for the purpose of verifying GPU workflows and building GPU-accelerated applications.
+Request 1 A100 GPU (MIG Slice) with 10 CPU cores for 30 minutes on the a100 partition. The a100 partition includes a set of GPUs dedicated to testing and compiling GPU-accelerated workflows. The script below will request one of the GPU MIG slices in the gpu-testing QoS. 
 
 ```
-sinteractive --partition=atesting_a100 --gres=gpu:1 --ntasks=10 --nodes=1 --qos=testing --time=00:30:00 
+sinteractive --partition=a100 --gres=gpu:a100_3g.20gb:1 --ntasks=10 --nodes=1 --qos=gpu-testing --time=00:30:00 
 ```
 
 
@@ -882,6 +882,7 @@ All users are provisioned space in three personal directories (that are accessib
 * Purpose: Designed as performant I/O storage and where your data for compute jobs (both input and output) should be stored.
 * Snapshots: **NONE**. Scratch is temporary storage. All files are deleted after 90 days and we cannot restore files once they are deleted. 
 
+> [!NOTE]
 > If you need more storage space than what is provided by Core Storage, than you will want to consider purchasing a PetaLibrary allocation.
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
@@ -932,6 +933,7 @@ Research Computing supports several methods of file transfer. File transfers fro
 
 Data transfers using SSH protocols can be done through the CURC data transfer nodes (DTN). Transfers via the DTNs support all types of transfers, including large and/or frequent file transfers and automated (passwordless) transfers. 
 
+> [!TIP]
 > We generally recommend using Globus for handling large file transfers to the system. But if you aren't sure how to handle a tricky data transfer, feel free to reach out to User Support through our [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form). We are always happy to help!
 
 <div style="display: flex; align-items:center; padding:1em; border-top: dashed 1px; border-bottom: dashed 1px; " >
