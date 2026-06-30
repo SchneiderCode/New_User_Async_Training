@@ -144,8 +144,10 @@ Institutional email address:
 
 <div style="clear:both"></div>
 
-> [!IMPORTANT] 
+> [!NOTE] 
 > Multiple questions are embedded in this training. It is ok if you don't know the answer to every question! Many of the questions are designed to test for common misconceptions and help you avoid common pitfalls for new users. 
+
+> [!IMPORTANT] 
 > We aim to make our online resources accessible to everyone. If you encounter any barriers in the materials contained in this tutorial, please report them through our [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form).
 
 ---
