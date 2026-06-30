@@ -49,6 +49,9 @@ window.user_email=window.user_name + "email.edu"
 persistent: true
 
 icon: rc_logo.png
+
+version: 1.0.2
+
 -->
 
 # Research Computing New User Training
